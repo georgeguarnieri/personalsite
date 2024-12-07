@@ -5,43 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thoughts</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        /* General Reset */
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f0f4f8;
-            color: #333;
-            text-align: center;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
-        header {
-            background-color: #3f51b5;
-            color: #fff;
-            padding: 1em 0;
+        body {
+            background-color: #ffffff;
+            color: #000;
+            padding: 40px;
+            line-height: 1.6;
         }
 
-        main {
-            margin: 20px;
-        }
-
+        /* Links */
         a {
-            color: #007BFF;
-            text-decoration: none;
+            display: block;
+            color: blue;
+            text-decoration: underline;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
         }
 
         a:hover {
-            text-decoration: underline;
+            color: darkblue;
+        }
+
+        /* Header */
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            font-weight: normal;
+        }
+
+        /* Footer or Back Link */
+        footer {
+            margin-top: 40px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Thoughts</h1>
-    </header>
-    <main>
-        <p>Sometimes I like to reflect on things...</p>
-        <p><em>"The best way to predict the future is to create it." - Abraham Lincoln</em></p>
-        <a href="index.html">Back to Home</a>
-    </main>
+    <h1>Thoughts</h1>
+    <!-- This section can remain blank or links can be added later -->
+    
+    <a href="index.html">Back to Home</a>
+
+    <footer>
+        <p>© 2024 Your Name</p>
+    </footer>
 </body>
 </html>
