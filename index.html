@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Page</title>
+    <title>Home</title>
     <style>
         /* General Reset */
         * {
@@ -15,62 +15,46 @@
 
         body {
             background-color: #ffffff;
-            color: #333333;
+            color: #000;
+            padding: 40px;
             line-height: 1.6;
-            text-align: center;
-            padding: 40px 20px;
         }
 
-        /* Header Styling */
-        header {
-            margin-bottom: 30px;
-        }
-
-        header h1 {
-            font-size: 2rem;
-            font-weight: 400;
-            letter-spacing: 1px;
-        }
-
-        /* Navigation Links */
-        nav {
-            margin: 40px 0;
-        }
-
-        nav a {
+        /* Links */
+        a {
             display: block;
-            font-size: 1.2rem;
-            color: #007BFF;
-            text-decoration: none;
-            margin: 10px 0;
-            transition: color 0.3s ease;
+            color: blue;
+            text-decoration: underline;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
         }
 
-        nav a:hover {
-            color: #0056b3;
+        a:hover {
+            color: darkblue;
+        }
+
+        /* Header */
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            font-weight: normal;
         }
 
         /* Footer */
         footer {
-            margin-top: 50px;
-            color: #aaa;
-            font-size: 0.9rem;
+            margin-top: 40px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Hi, I'm George</h1>
-    </header>
+    <h1>Hi, I'm George</h1>
 
-    <nav>
-        <a href="things-i-like.html">Things I Like</a>
-        <a href="thoughts.html">Thoughts</a>
-        <a href="about.html">About</a>
-    </nav>
+    <!-- Links to the other sections -->
+    <a href="things-i-like.html">Things I Like</a>
+    <a href="thoughts.html">Thoughts</a>
 
     <footer>
-        
     </footer>
 </body>
 </html>
